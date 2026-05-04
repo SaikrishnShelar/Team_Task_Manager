@@ -1,6 +1,6 @@
 # Team Task Manager
 
-A full-stack team task management application with role-based access control (Admin/Member). Built with Spring Boot, MySQL, and vanilla JavaScript.
+A comprehensive full-stack task management application for teams to collaborate on projects, assign tasks, track progress, and manage workflows with role-based access control.
 
 ## 🚀 Live Demo
 
