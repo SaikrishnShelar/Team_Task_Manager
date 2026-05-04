@@ -6,38 +6,71 @@ A full-stack team task management application with role-based access control (Ad
 
 🔗 **Live URL:** https://taskmanager-z8ii.onrender.com/
 
-## 📋 Features
+## ✨ Features
 
-### Authentication
-- ✅ User Signup & Login with JWT
-- ✅ Secure password encryption (BCrypt)
-- ✅ Session persistence
+### 🔧 Core Functionality
+- 🔐 **JWT Authentication** - Secure signup/login system  
+- 👥 **Role-Based Access** - Admin (full control) & Member (limited access)  
+- 📁 **Project Management** - Create, read, update, delete projects  
+- 👨‍👩‍👧 **Team Collaboration** - Add/remove team members to projects  
+- ✅ **Task Management** - Create, assign, update, delete tasks  
+- 📊 **Interactive Dashboard** - Visual statistics and task overview  
+- 💬 **Comment System** - Add comments to tasks for better collaboration  
+- 📱 **Responsive Design** - Works seamlessly on all devices  
 
-### Role-Based Access
-- ✅ **Admin** - Create projects, tasks, add members, full control
-- ✅ **Member** - View assigned tasks, update task status
+---
 
-### Project Management
-- ✅ Create projects
-- ✅ Edit project details
-- ✅ Delete projects
-- ✅ View all projects
+### 👑 Admin Capabilities
+- ✅ Create and manage projects  
+- ✅ Add/remove team members  
+- ✅ Create and assign tasks  
+- ✅ Delete any project or task  
+- ✅ View all users  
 
-### Team Management
-- ✅ Add members to projects
-- ✅ Remove members from projects
-- ✅ View project members
+---
 
-### Task Management
-- ✅ Create tasks
-- ✅ Assign tasks to specific users
-- ✅ Update task status (Pending → In Progress → Completed)
-- ✅ Edit tasks
-- ✅ Delete tasks
-- ✅ View overdue tasks with warnings
+### 👤 Member Capabilities
+- ✅ View assigned tasks  
+- ✅ Update task status (Pending → In Progress → Completed)  
+- ✅ Add comments to tasks  
+- ✅ View project details  
 
-### Dashboard
-- ✅ Statistics: Total, Completed, Pending, Overdue tasks
-- ✅ My Tasks list
-- ✅ Projects list
-- ✅ Real-time status updates
+---
+
+## 🏗️ Technology Stack
+
+### 🎨 Frontend
+- HTML5  
+- CSS3 (Custom responsive design)  
+- Vanilla JavaScript (ES6+)  
+- Fetch API  
+
+---
+
+### ⚙️ Backend
+- Node.js  
+- Express.js  
+- JWT Authentication  
+- Bcrypt (password hashing)  
+
+---
+
+### 🗄️ Database
+- MongoDB  
+- Mongoose ODM  
+
+---
+
+### 🌐 Deployment
+- Railway / Render / Heroku (Backend)  
+- MongoDB Atlas (Database)  
+
+---
+
+## 📋 Prerequisites
+Before you begin, ensure you have:
+
+- Node.js (v18 or higher)  
+- MongoDB (v6.0+) or MongoDB Atlas account  
+- npm or yarn  
+- Git  s
