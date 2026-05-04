@@ -1,83 +1,43 @@
-Team Task Manager
+# Team Task Manager
+
 A full-stack team task management application with role-based access control (Admin/Member). Built with Spring Boot, MySQL, and vanilla JavaScript.
 
-🚀 Live Demo
-🔗 Live URL: https://taskmanager-z8ii.onrender.com/
+## 🚀 Live Demo
 
-✨ Features
-Core Functionality
-🔐 JWT Authentication - Secure signup/login system
+🔗 **Live URL:** https://taskmanager-z8ii.onrender.com/
 
-👥 Role-Based Access - Admin (full control) & Member (limited access)
+## 📋 Features
 
-📁 Project Management - Create, read, update, delete projects
+### Authentication
+- ✅ User Signup & Login with JWT
+- ✅ Secure password encryption (BCrypt)
+- ✅ Session persistence
 
-👨‍👩‍👧 Team Collaboration - Add/remove team members to projects
+### Role-Based Access
+- ✅ **Admin** - Create projects, tasks, add members, full control
+- ✅ **Member** - View assigned tasks, update task status
 
-✅ Task Management - Create, assign, update, delete tasks
+### Project Management
+- ✅ Create projects
+- ✅ Edit project details
+- ✅ Delete projects
+- ✅ View all projects
 
-📊 Interactive Dashboard - Visual statistics and task overview
+### Team Management
+- ✅ Add members to projects
+- ✅ Remove members from projects
+- ✅ View project members
 
-💬 Comment System - Add comments to tasks for better collaboration
+### Task Management
+- ✅ Create tasks
+- ✅ Assign tasks to specific users
+- ✅ Update task status (Pending → In Progress → Completed)
+- ✅ Edit tasks
+- ✅ Delete tasks
+- ✅ View overdue tasks with warnings
 
-📱 Responsive Design - Works seamlessly on all devices
-
-Admin Capabilities
-Create and manage projects
-
-Add/remove team members
-
-Create and assign tasks to members
-
-Delete any project or task
-
-View all users in the system
-
-Member Capabilities
-View assigned tasks
-
-Update task status (Pending → In Progress → Completed)
-
-Add comments to tasks
-
-View project details
-
-🏗️ Technology Stack
-Frontend
-HTML5
-
-CSS3 (Custom responsive design)
-
-Vanilla JavaScript (ES6+)
-
-Fetch API for HTTP requests
-
-Backend
-Node.js
-
-Express.js
-
-JWT for authentication
-
-Bcrypt for password hashing
-
-Database
-MongoDB
-
-Mongoose ODM
-
-Deployment
-Railway / Render / Heroku (Backend)
-
-MongoDB Atlas (Database)
-
-📋 Prerequisites
-Before you begin, ensure you have the following installed:
-
-Node.js (v18 or higher)
-
-MongoDB (v6.0 or higher) or MongoDB Atlas account
-
-npm or yarn package manager
-
-Git
+### Dashboard
+- ✅ Statistics: Total, Completed, Pending, Overdue tasks
+- ✅ My Tasks list
+- ✅ Projects list
+- ✅ Real-time status updates
